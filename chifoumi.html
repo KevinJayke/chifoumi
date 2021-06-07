@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chifoumi</title>
+    <link rel="stylesheet" href="CSS/mystyle.css">
+</head>
+<body>
+    <div class="grid-container">
+        <div class="item1">
+            <div class="score">
+                    <div>Score</div>
+                    <span class="jaune">défaite </span>
+                    <div class="score_def"></div>
+                    <span class="jaune">victoire</span>
+                    <div class="score_vic"></div>
+                    <span class="jaune">égalité </span>
+                    <div class="score_ega"></div>
+            </div>
+        </div>
+        <div class="item2">
+            <h1 class="item2_titre">Chifoumi</h1>
+        </div>
+        <div class="item3">
+            <h2 class="item3_titre">Chose your weapon</h2>
+        </div>
+        <div class="item4" onclick=chifoumi(0)>
+            <img class="icon" src="SVG/main_pierre.svg" alt="Main pierre">
+            <button class="bouton transform_2deg" type="button">pierre</button>
+        </div>
+        <div class="item5" onclick=chifoumi(1)>
+            <img class="icon" src="SVG/main_feuille.svg" alt="Main feuille">
+            <button class="bouton transform_-2deg" type="button">feuille</button>
+        </div>
+        <div class="item6" onclick=chifoumi(2)>
+            <img class="icon" src="SVG/main_ciseaux.svg" alt="Main Main ciseaux">
+            <button class="bouton transform_4deg" type="button">ciseaux</button>
+        </div>
+        <div class="item7">
+            <img class="img" src="IMG/boxer.png" alt="boxeur">
+            <div class="bataille_moi"></div>
+        </div>
+        <div class="item8">
+        <img class="iconvs" src="SVG/eclair-orange.svg" alt="VS">
+        </div>
+        <div class="item9">
+            <img class="img" src="IMG/ordi.png" alt="boxeur">
+            <div class="bataille_rob"></div>
+        </div>
+        <div class="item10">
+            <img class="box" src="SVG/box.svg" alt="boxjaune">
+            <div class="bataille_res">VS</div>
+        </div>
+    </div>
+</body>
+
+</html>
+<script type="text/javascript" src="JS/function.js"></script>
